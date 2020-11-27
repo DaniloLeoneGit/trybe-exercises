@@ -7,11 +7,3 @@ for (let array = 1; array <= 25; array += 1) {
 }
 
 console.log(numerosProArray);
-
-// let numbers = [];
-
-// for (let i = 1; i <= 25; i += 1) {
-//   numbers.push(i);
-// }
-
-// console.log(numbers);
