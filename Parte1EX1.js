@@ -12,6 +12,12 @@ let info = {
 
  //ex3
 
- for (let caracteristicasDoPersonagem in info) {
-    console.log(caracteristicasDoPersonagem)
+//  for (let caracteristicasDoPersonagem in info) {
+//     console.log(caracteristicasDoPersonagem)
+//  }
+
+ //ex4
+
+ for (let chavesDoObjeto in info) {
+     console.log(info[chavesDoObjeto])
  }
