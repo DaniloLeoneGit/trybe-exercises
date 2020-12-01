@@ -8,6 +8,7 @@ let info = {
 
 //ex 2
  info['recorrente'] = 'sim'
+ //ou info.recorrente = 'Sim';
  //console.log(info)
 
  //ex3
@@ -42,3 +43,6 @@ let info2 = {
        console.log(info[chavesDoObjeto] + ' e ' +info2[chavesDoObjeto]);
    }
  }
+
+
+
