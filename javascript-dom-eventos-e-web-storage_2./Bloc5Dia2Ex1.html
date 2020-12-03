@@ -63,9 +63,21 @@
       document.body.appendChild(newElementH1);
 
       // Exercicio 2 - add tag div com classe como filho no body
-      let newDiv = document.createElement('div');
-      newDiv.className = 'main-content';
-      document.body.appendChild(newDiv)
+      let newDivMain = document.createElement('div');
+      newDivMain.className = 'main-content';
+      document.body.appendChild(newDivMain);
+
+      // Exercicio 3 - add tag divcom classe na main-content
+      let divCenter = document.createElement('div');
+      divCenter.className = 'center-content';
+      newDivMain.appendChild(divCenter);
+
+      //exercicio 4 - add tag p  filho da divCenter
+      let paragraph = document.createElement('p');
+      paragraph.innerHTML = 'Aprendizado ativo é difícil';
+      divCenter.appendChild(paragraph)
+
+
 
 
 
