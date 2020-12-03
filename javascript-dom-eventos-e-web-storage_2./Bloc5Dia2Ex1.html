@@ -75,7 +75,19 @@
       //exercicio 4 - add tag p  filho da divCenter
       let paragraph = document.createElement('p');
       paragraph.innerHTML = 'Aprendizado ativo é difícil';
-      divCenter.appendChild(paragraph)
+      divCenter.appendChild(paragraph);
+
+      // exercicio 5 - add tag div com classe como filho newdivMain
+      let divLeftContent = document.createElement('div');
+      divLeftContent.className = 'left-content';
+      newDivMain.appendChild(divLeftContent);
+
+      //exercicio 6 - add tag div com classe como filho da newDivMain
+      let divRigthContent = document.createElement('div');
+      divRigthContent.className = 'right-content';
+      newDivMain.appendChild(divRigthContent)
+
+
 
 
 
