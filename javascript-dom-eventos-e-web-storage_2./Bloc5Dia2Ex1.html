@@ -85,7 +85,25 @@
       //exercicio 6 - add tag div com classe como filho da newDivMain
       let divRigthContent = document.createElement('div');
       divRigthContent.className = 'right-content';
-      newDivMain.appendChild(divRigthContent)
+      newDivMain.appendChild(divRigthContent);
+
+      // exercicio 7 - add img com src e classe small-image como filho do divLeftContent
+      let exerciseImage = document.createElement('img');
+      exerciseImage.className = 'small-image';
+      exerciseImage.src = 'https://picsum.photos/200'
+      divLeftContent.appendChild(exerciseImage);
+
+      // exercicio 8 add lista ñ ordenada de 1 a 10 por extenso filha da lista divRigthContent
+      let elementUl = document.createElement('ul');
+      divRigthContent.appendChild(elementUl);
+      let arrayOfNumbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+      for (let numbers in arrayOfNumbers) {
+        let elementLi = document.createElement('li');
+        elementLi.innerHTML = arrayOfNumbers[numbers];
+        elementUl.appendChild(elementLi);
+      }
+
+
 
 
 
