@@ -103,6 +103,13 @@
         elementUl.appendChild(elementLi);
       }
 
+      //9 add 3 tags h3 filhas da div newDivMain
+      for (let indexTag = 1; indexTag <= 3; indexTag += 1) {
+        let elementsH3 = document.createElement('h3');
+        elementsH3.innerHTML = 'tag h3 ' + indexTag;
+        newDivMain.appendChild(elementsH3);
+      }
+
 
 
 
